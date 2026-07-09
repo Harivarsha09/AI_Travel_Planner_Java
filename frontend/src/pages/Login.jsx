@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 function Login() {
   return (
     <div className="container mt-5 text-center">
@@ -20,10 +21,14 @@ function Login() {
           className="form-control my-2"
           placeholder="Enter Password"
         />
-
         <button className="btn btn-primary w-100 mt-3">
           Login
         </button>
+        <p className="mt-3">
+          Don't have an account?{" "}
+          <Link to="/register">Register</Link>
+        </p>
+   
       </div>
     </div>
   );
