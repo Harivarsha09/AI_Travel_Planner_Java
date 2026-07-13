@@ -1,16 +1,30 @@
-# React + Vite
+# AI Travel Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An AI-powered travel planning application built using React.js and Spring Boot.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Frontend
+- React.js
+- Vite
+- Bootstrap
+- Axios
 
-## React Compiler
+### Backend
+- Java
+- Spring Boot
+- MySQL
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- User Registration
+- User Login
+- AI Trip Planner
+- Destination Recommendations
+- Budget Planning
+- Travel Dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Project Status
+
+Frontend UI completed.
+Backend development in progress.
